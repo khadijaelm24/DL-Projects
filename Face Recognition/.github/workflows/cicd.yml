@@ -16,7 +16,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: khadijaelm24/face-recognition
+        image: khadijaelm24/face_recognition
         tags: latest # keeping simply a single tag for a docker image's push
         registry: docker.io # same registry's name 
         dockerfile: Dockerfile # references to the written Dockerfile
